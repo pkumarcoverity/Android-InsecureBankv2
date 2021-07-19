@@ -2,7 +2,7 @@ on: [push]
   
 jobs:
   sigma_code_scanning_run_steps:
-    runs-on: ubuntu-18.04
+    runs-on: ubuntu-latest
     container:
       image: docker.io/pavanboggarapu/sigma
       credentials:
